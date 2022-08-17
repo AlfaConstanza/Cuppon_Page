@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+/* Typography */
+body,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+h5 {
+  font-weight: 500;
+}
+.logoNavbar {
+  width: 100px;
+  height: 30px;
+}
+/* cards block 2*/
+.mt-0 {
+  margin-top: -7rem !important;
+}
+/* adreess location */
+.card-body a:link {
+  text-decoration: none !important;
+}
+
+.card-body a:hover {
+  color: #28a745;
+  font-weight: 500;
+}
+
+.card-body a {
+  color: #000000;
+}
+
+/* fontawesome */
+.fa-location-dot,
+.fa-copyright {
+  color: #878787;
+}
+
+/* form */
+.text::placeholder {
+  color: #9b9b9b;
+}
+
+button {
+  width: 95px;
+}
+
+/* footer */
+.logoFooter {
+  width: 70px;
+  height: 20px;
+}

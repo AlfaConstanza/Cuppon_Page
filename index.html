@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/4fb4ea1b59.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- favicon -->
+    <link type="image/x-icon" href="/assets/img/favicon-cuppon.png" rel="shortcut icon">
+    <title>CUPPON</title>
+  </head>
+  <body>
+    <header>
+      <!-- Part - 1 - Nav -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid ms-5 me-4">
+          <img class="logoNavbar" src="assets/img/logo-white.png" alt="logo de CUPPON en color blanco">
+          <button class="navbar-toggler" data-bs-target="#navbarNavAltMarkup" data-bs-toggle="collapse" type="button" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="#" aria-current="page">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <article>
+      <!-- Part - 2 - Carousel -->
+      <div class="carousel slide" id="carouselExampleIndicators" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button" aria-current="true" aria-label="Slide 1"></button>
+          <button data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button" aria-label="Slide 2"></button>
+          <button data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/carouselKids.png" alt="Dibujo de niños haciendo diferentes actividades">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/carouselZoo.png" alt="Afiche de animales del zoológico Buin Zoo">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/carouselCinema.png" alt="Afiche Cine Hoyts, una pareja viendo una película">
+          </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </article>
+    <!-- Part - 3 - Cards - Products -->
+    <main>
+      <div class="container-fluid p-0 m-xs-0 p-md-5">
+        <div class="row p-xs-0 p-md-5">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/bulder.png" alt="hombre en un muro de escalada">
+              <div class="card-body">
+                <h5 class="card-title">
+                  8 ó 12 clases de Muro de escalada para Niños.
+                </h5>
+                <p class="card-text">Gimnasios StarGym</p>
+                <br>
+                <h6>
+                  <i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/place/Av.+Los+Leones+2384,+Santiago,+Providencia+7511055,+Regi%C3%B3n+Metropolitana/@-33.440859,-70.6016999,17z/data=!3m1!4b1!4m5!3m4!1s0x9662cf9f0d406e1b:0x30704a71a164043!8m2!3d-33.440859!4d-70.5995112" target="_blank">
+                    Avenida Los Leones 2384, Santiago, Providencia, Chile</a>
+                </h6>
+                <hr>
+                <div class="row g-0">
+                  <div class="col col-sm-8 text-end py-1">
+                    <h6>$ <del>40.000</del></h6>
+                  </div>
+                  <div class="col col-sm-4 text-center">
+                    <h5>Desde p.p</h5>
+                    <h5 class="text-success">$ 11.990</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/icecream.png" alt="dos copas de helados">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Dos copas helada Cream Roll (10 opciones a elección).
+                </h5>
+                <p class="card-text">Cream Roll, Mall Plaza Egaña</p>
+                <br>
+                <h6>
+                  <i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/place/Av.+Larrain+5862,+La+Reina,+63017,+Regi%C3%B3n+Metropolitana/@-33.4524377,-70.5716591,17z/data=!3m1!4b1!4m5!3m4!1s0x9662ce4a10b96aef:0x114cf34077528c9e!8m2!3d-33.4524377!4d-70.5694704" target="_blank">
+                    Avenida Larrain 5862, Santiago, La Reina, Chile</a>
+                </h6>
+                <hr>
+                <div class="row g-0">
+                  <div class="col col-sm-8 text-end py-1">
+                    <h6>$ <del>6.980</del></h6>
+                  </div>
+                  <div class="col col-sm-4 text-center">
+                    <h5>31% Dscto.</h5>
+                    <h5 class="text-success">$ 4.800</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/cinema.png" alt="niños con palomitas viendo película en el cine">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Combo pareja 2 entradas + 1 Pop Gigante + 2 Bebidas.
+                </h5>
+                <p class="card-text">Cineplanet, Portal La Dehesa</p>
+                <br>
+                <h6>
+                  <i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps?q=Av.+La+Dehesa+1526,+Lo+Barnechea,&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjVhP6lp7H5AhUjCtQKHeQ4Dz0Q_AUoAXoECAEQAw" target="_blank">
+                    Av. La Dehesa 1526, Lo Barnechea, Región Metropolitana</a>
+                </h6>
+                <hr>
+                <div class="row g-0">
+                  <div class="col col-sm-8 text-end py-1">
+                    <h6>$ <del>22.700</del></h6>
+                  </div>
+                  <div class="col col-sm-4 text-center">
+                    <h5>25% Dscto.</h5>
+                    <h5 class="text-success">$ 16.990</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second row -->
+      <div class="container-fluid p-0 m-xs-0 p-md-5 mt-0">
+        <div class="row p-xs-0 p-md-5">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/dinosaur.png" alt="Afiche con dos dinosaurio Tiranosaurio rex y un Diplodocus">
+              <div class="card-body">
+                <h5 class="card-title">
+                  ¡Circo de Dinosaurios! Desde el 8 al 15 de Agosto
+                </h5>
+                <p class="card-text">Estacionamiento Mall Arauco Maipu.</p>
+                <br>
+                <h6>
+                  <i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/place/Americo+Vespucio+399,+Maip%C3%BA,+Regi%C3%B3n+Metropolitana/@-33.4830191,-70.7517915,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c317d35258bd:0x30ecdc04910e29de!8m2!3d-33.4830191!4d-70.7496028" target="_blank">
+                    Avenida Américo Vespucio 399, Maipú, Chile</a>
+                </h6>
+                <hr>
+                <div class="row g-0">
+                  <div class="col col-sm-8 text-end py-1">
+                    <h6>$ <del>8.000</del></h6>
+                  </div>
+                  <div class="col col-sm-4 text-center">
+                    <h5>Desde p.p</h5>
+                    <h5 class="text-success">$ 6.000</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/hamburgers.png" alt="dos hamburguesas gigantes">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hamburguesas 100% Artesanales x 2 + Papas 120 gr.
+                </h5>
+                <p class="card-text">La Cuarentena Burger.</p>
+                <br>
+                <h6>
+                  <i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps?q=Avenida+Macul+2432,+Macul,+Chile&um=1&ie=UTF-8&sa=X&ved=2ahUKEwin1--AprH5AhUzEbkGHZi9BJQQ_AUoAXoECAEQAw" target="_blank">
+                    Avenida Macul 2432, Macul, Chile</a>
+                </h6>
+                <hr>
+                <div class="row g-0">
+                  <div class="col col-sm-8 text-end py-1">
+                    <h6>$ <del>17.980</del></h6>
+                  </div>
+                  <div class="col col-sm-4 text-center">
+                    <h5>31% Dscto.</h5>
+                    <h5 class="text-success">$ 9.990</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/zoo.png" alt="Niño alimentando a un Canguro">
+              <div class="card-body">
+                <h5 class="card-title">
+                  ¡IMPERDIBLE! Entrada Buin Zoo para Niño.
+                </h5>
+                <p class="card-text">
+                  Buin Zoo,¡Somos el zoológico más grande e importante de Chile!
+                </p>
+                <br>
+                <h6>
+                  <i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps?q=buinzoo&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi-8omPpbH5AhVzAtQKHcubCrIQ_AUoAXoECAIQAw" target="_blank">
+                    Ruta 5 sur kilómetro 32 Buin, Región Metropolitana, Chile</a>
+                </h6>
+                <hr>
+                <div class="row g-0">
+                  <div class="col col-sm-8 text-end py-1">
+                    <h6>$ <del>8.500</del></h6>
+                  </div>
+                  <div class="col col-sm-4 text-center">
+                    <h5>Desde p.p</h5>
+                    <h5 class="text-success">$ 6.490</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Part - 4 - Form -->
+    <section>
+      <div class="bg-success text-center mx-3">
+        <div class="pt-5">
+          <h2 class="text-white fs-6">Recibe cupones en tu correo</h2>
+        </div>
+        <div class="container">
+          <form class="pb-3">
+            <input class="form-control mb-2 text" type="text" placeholder="Nombre">
+            <input class="form-control mt-3 text" type="email" placeholder="Correo Electrónico">
+            <div class="text-center mt-3">
+              <button class="btn btn-light" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Part - 5 - footer -->
+    <footer class="text-center my-3">
+      <div>
+        <img class="logoFooter" src="assets/img/logo-black.png" alt="Logo CUPPON en color negro">
+      </div>
+      <div>
+        <p>
+          <i class="fa-solid fa-copyright"></i> 2022 Cuppon Latam.Todos los
+          derechos reservados - <i>Desafío 4 por Gigi.</i>
+        </p>
+      </div>
+    </footer>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
